@@ -350,7 +350,7 @@ const jonas = {
 
 // console.log(jonas["calcAge"](1991));
 console.log(jonas.getSummary());
-*/
+
 
 // Coding Challenge #3
 const Mark = {
@@ -385,4 +385,10 @@ if(Mark.bmi > John.bmi){
 }else{
     console.log(`${Mark.fullName}'s BMI ${Mark.calcBMI()} is less than ${John.fullName}'s ${John.calcBMI()}`)
 }
+*/
 
+
+// The for loop
+for (let rep = 1; rep <= 10; rep++){
+    console.log(`lifting weights repetition ${rep}`)
+}
